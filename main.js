@@ -18,7 +18,7 @@ function generateGround() {
       const div = document.createElement("div");
       div.style.width = size + "px";
       div.style.height = sizeH + "px";
-      div.style.background = Math.random() < 0.5 ? "green" : "#0d4a18";
+      div.style.background = Math.random() < 0.2 ? "green" : "#0d4a18";
       div.className = "grounder";
       ground.appendChild(div);
     }
